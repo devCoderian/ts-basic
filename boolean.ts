@@ -3,4 +3,4 @@ isDone = false;
 
 console.log(typeof isDone);
 
-let isNotOk: boolean = new Boolean(true);
+//let isNotOk: boolean = new Boolean(true);

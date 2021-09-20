@@ -1,7 +1,7 @@
 "use strict";
 //let a = "mark";
 //a = 39;
-var a;
+let a;
 //a = 'Mark';
 a = 39;
 function hello(b) {
