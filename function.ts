@@ -22,7 +22,7 @@ function hello2(name?:string):string{
     return `Hello, ${name || "world"}`;
 }
 
-const result2 = hello2();//error
+const result2 = hello2();
 
 function hello3(name = "world"){
     return `Hello, ${name}`
@@ -86,8 +86,9 @@ interface UserJoin {
     name: string,
     age: number
 }
-// function join(name: string, age:string): string;
-// function join(name: string, age:number): UserJoin;
+
+function join(name: string, age:string): string;
+function join(name: string, age:number): UserJoin;
 
 function join(name: string, age: number | string): UserJoin | string {
     if(typeof age === "number"){
